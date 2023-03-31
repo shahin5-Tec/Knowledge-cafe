@@ -1,0 +1,46 @@
+[
+    {
+        "id": 20103272,
+        "author_name":"Shahin Hossain",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "coverImg":"https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR03gvxJZob8fKqd-tJdH99i2sH9_fwOnYeBhMt9PK1iTFbgfe_AwK1eFtM",
+        "authorImg":"https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "read_time":4,
+        "published_date":"March 14, 2023"
+    },
+
+    {
+        "id": 20103276,
+        "author_name":"Mamun ur Rashid",
+        "blog_title":"How to get your first job as a self-taught programmer",
+       
+        "coverImg":"https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "authorImg":"https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       
+        "read_time":7,
+        "published_date":"March 22, 2023"
+        
+    },
+    {
+        "id": 20103277,
+        "author_name":"Mina Mostofa",
+        "blog_title":"How to get your first job as a self-taught programmer",
+        "coverImg":"https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "authorImg":"https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       
+        "read_time":7,
+        "published_date":"March 25, 2023"
+        
+    },
+    {
+        "id": 20103278,
+        "author_name":"Mrs. Setara",
+        "blog_title":"How to get your first job as a self-taught programmer",
+        "coverImg":"https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ",
+        "authorImg":"https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       
+        "read_time":7,
+        "published_date":"March 28, 2023"
+        
+    }
+]
