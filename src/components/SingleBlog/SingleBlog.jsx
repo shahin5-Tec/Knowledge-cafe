@@ -25,7 +25,12 @@ const SingleBlog = (props) => {
                     </div>
                 </div>
 
-                
+                <div className='lg:text-4xl font-bold my-3 '>
+                    <h2>{blog_title}</h2>
+                </div>
+                <div className='text-blue-700 underline '>
+                    <a className='cursor-pointer' href="">Mark as read</a>
+                </div>
 
             </div>
             <hr className='custom-divider' />
