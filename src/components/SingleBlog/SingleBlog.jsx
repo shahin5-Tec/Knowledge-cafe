@@ -10,7 +10,7 @@ const SingleBlog = (props) => {
                     <img className='rounded-3xl lg: h-96  w-full' src={coverImg} alt="" />
                 </div>
                 <div className='flex justify-between  items-center mt-5'>
-                    <div className='flex items-center  '>
+                <div className='flex items-center  '>
                         <div>
                             <img className='w-10 rounded-full ' src={authorImg} alt="" />
                         </div>
@@ -25,12 +25,7 @@ const SingleBlog = (props) => {
                     </div>
                 </div>
 
-                <div className='lg:text-4xl font-bold my-3 '>
-                    <h2>{blog_title}</h2>
-                </div>
-                <div className='text-blue-700 underline '>
-                    <a className='cursor-pointer' href="">Mark as read</a>
-                </div>
+                
 
             </div>
             <hr className='custom-divider' />
