@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
 import './SingleBlog.css'
 
-const SingleBlog = ({ blog,handleBookmarkedBlog}) => {
+const SingleBlog = ({ blog,handleBookmarkedBlog,handleTimeRead}) => {
     const { id, author_name, blog_title, authorImg, coverImg, read_time, published_date } = blog;
 
 
@@ -36,7 +36,7 @@ const SingleBlog = ({ blog,handleBookmarkedBlog}) => {
                     <h2 className='lg:text-4xl font-bold my-3 '>{blog_title}</h2>
                 </div>
                 <div className='text-blue-700 underline '>
-                    {/* <a onClick={() => handleMarkedAsRead(read_time)} className='cursor-pointer' href="">Mark as read</a> */}
+                <p className='cursor-pointer' onClick={() => handleTimeRead(read_time)}>Mark as read</p>
                 </div>
 
             </div>
