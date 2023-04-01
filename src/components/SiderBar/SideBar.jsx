@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
+
 import './SideBar.css'
 
 const SideBar = ({readTime,bookmarked}) => {
     const [getreadTime,setgetreadTime]= useState(readTime)
-    const [count,seCount]=useState(0)
+    const [count,setCount]=useState(0)
     useEffect(()=>{
         const getReadTime = JSON.parse(localStorage.getItem('read-time'));
         setgetreadTime(getReadTime);
     },[readTime])
     useEffect (()=>{
-        seCount(bookmarked.length)
+        setCount(bookmarked.length)
     },[bookmarked])
     const clearSpentTime = (value) => {
         localStorage.clear();
@@ -33,7 +34,7 @@ const SideBar = ({readTime,bookmarked}) => {
                 }
             </div>
             <div className='text-center mt-2'>
-                <button className='btn btn-primary' onClick={() => clearSpentTime(0)}>Clear Spent Time</button>
+                <button className='btn btn-secondary' onClick={() => clearSpentTime(0)}>Clear Spent Time</button>
             </div>
            
         </div>

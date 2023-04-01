@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleBlog from '../SingleBlog/SingleBlog';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Blog.css'
 import SideBar from '../SiderBar/SideBar';
 
@@ -28,9 +30,16 @@ const Blog = () => {
     }
     
     // book-marked part
-    const handleBookmarkedBlog=(blog_title)=>{
-        
-        setBookmarked([...bookmarked, blog_title]);
+    const handleBookmarkedBlog = (blog_title) => {
+        if (!bookmarked.includes(blog_title)) {
+            setBookmarked([...bookmarked, blog_title]);
+          }
+          else{
+            toast.warning('You have already added this Item !', {
+                position: toast.POSITION.BOTTOM_RIGHT,
+                className: 'toast-message'
+            });
+          }
     }
     return (
         <div>
@@ -52,6 +61,7 @@ const Blog = () => {
                     ></SideBar>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };
