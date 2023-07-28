@@ -25,7 +25,7 @@ const SingleBlog = ({ blog,handleBookmarkedBlog,handleTimeRead}) => {
                     </div>
 
                     <div className='flex items-center gap-2'>
-                        <p>{read_time} min read</p>
+                        <p className='cursor-pointer'>{read_time} min read</p>
                         <p onClick={()=>handleBookmarkedBlog(blog_title)}><FontAwesomeIcon icon={faBookBookmark} /></p>
                     </div>
                    
